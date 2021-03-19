@@ -1,0 +1,27 @@
+.desktop-nav {
+  display: none;
+}
+
+.desktop-nav__list-item {
+  display: inline-block;
+}
+
+.mobile-nav__list-item {
+  height: 0;
+  opacity: 0;
+}
+
+.show {
+  height: auto;
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .desktop-nav {
+    display: block;
+  }
+
+  .mobile-nav {
+    display: none;
+  }
+}
